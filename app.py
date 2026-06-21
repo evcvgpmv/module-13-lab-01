@@ -12,5 +12,5 @@ response = client.chat.completions.create(
         {"role": "user", "content": "Say hello in one line"}
     ]
 )
-
-print(response.choices[0].message.content)
+var msg = response.choices[0].message.content
+print(msg)
